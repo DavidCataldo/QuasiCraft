@@ -7,24 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1AC1C832946BDD000AF64E8 /* dirtMC.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1AC1C812946BC9C00AF64E8 /* dirtMC.png */; };
 		C1C5A7FD293AF9A200CDFCD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A7FC293AF9A200CDFCD6 /* main.cpp */; };
+		C1C5A805293AFAD900CDFCD6 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C5A804293AFAD900CDFCD6 /* libglfw.3.3.dylib */; };
+		C1C5A807293AFAF500CDFCD6 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C5A806293AFAF500CDFCD6 /* libGLEW.2.2.0.dylib */; };
+		C1C5A809293AFBF700CDFCD6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C5A808293AFBF600CDFCD6 /* OpenGL.framework */; };
+		C1C5A80C293D07C900CDFCD6 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A80A293D07C900CDFCD6 /* Mesh.cpp */; };
+		C1C5A80F293D0B4900CDFCD6 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A80D293D0B4900CDFCD6 /* Texture.cpp */; };
+		C1C5A813293D4DEE00CDFCD6 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A811293D4DEE00CDFCD6 /* Shader.cpp */; };
+		C1C5A8162941217700CDFCD6 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A8142941217700CDFCD6 /* Camera.cpp */; };
+		C1C5A819294121EF00CDFCD6 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A817294121EF00CDFCD6 /* Block.cpp */; };
+		C1C5A81C2941238F00CDFCD6 /* Chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A81A2941238F00CDFCD6 /* Chunk.cpp */; };
+		C1C5A81F2943A01B00CDFCD6 /* MyWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C5A81D2943A01B00CDFCD6 /* MyWindow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C1C5A7F7293AF9A200CDFCD6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				C1AC1C832946BDD000AF64E8 /* dirtMC.png in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1AC1C80294677C400AF64E8 /* PerlinNoise.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PerlinNoise.hpp; sourceTree = "<group>"; };
+		C1AC1C812946BC9C00AF64E8 /* dirtMC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dirtMC.png; path = ../../Downloads/dirtMC.png; sourceTree = "<group>"; };
+		C1AC1C822946BCFE00AF64E8 /* dirtMC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirtMC.png; sourceTree = "<group>"; };
 		C1C5A7F9293AF9A200CDFCD6 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C5A7FC293AF9A200CDFCD6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C1C5A804293AFAD900CDFCD6 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		C1C5A806293AFAF500CDFCD6 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		C1C5A808293AFBF600CDFCD6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C1C5A80A293D07C900CDFCD6 /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		C1C5A80B293D07C900CDFCD6 /* Mesh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mesh.hpp; sourceTree = "<group>"; };
+		C1C5A80D293D0B4900CDFCD6 /* Texture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		C1C5A80E293D0B4900CDFCD6 /* Texture.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Texture.hpp; sourceTree = "<group>"; };
+		C1C5A810293D0C2D00CDFCD6 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		C1C5A811293D4DEE00CDFCD6 /* Shader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		C1C5A812293D4DEE00CDFCD6 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		C1C5A8142941217700CDFCD6 /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		C1C5A8152941217700CDFCD6 /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		C1C5A817294121EF00CDFCD6 /* Block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
+		C1C5A818294121EF00CDFCD6 /* Block.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Block.hpp; sourceTree = "<group>"; };
+		C1C5A81A2941238F00CDFCD6 /* Chunk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chunk.cpp; sourceTree = "<group>"; };
+		C1C5A81B2941238F00CDFCD6 /* Chunk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chunk.hpp; sourceTree = "<group>"; };
+		C1C5A81D2943A01B00CDFCD6 /* MyWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyWindow.cpp; sourceTree = "<group>"; };
+		C1C5A81E2943A01B00CDFCD6 /* MyWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyWindow.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C5A809293AFBF700CDFCD6 /* OpenGL.framework in Frameworks */,
+				C1C5A807293AFAF500CDFCD6 /* libGLEW.2.2.0.dylib in Frameworks */,
+				C1C5A805293AFAD900CDFCD6 /* libglfw.3.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +77,10 @@
 		C1C5A7F0293AF9A200CDFCD6 = {
 			isa = PBXGroup;
 			children = (
+				C1AC1C812946BC9C00AF64E8 /* dirtMC.png */,
 				C1C5A7FB293AF9A200CDFCD6 /* OpenGL */,
 				C1C5A7FA293AF9A200CDFCD6 /* Products */,
+				C1C5A803293AFAD900CDFCD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +95,36 @@
 		C1C5A7FB293AF9A200CDFCD6 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				C1AC1C822946BCFE00AF64E8 /* dirtMC.png */,
 				C1C5A7FC293AF9A200CDFCD6 /* main.cpp */,
+				C1C5A80A293D07C900CDFCD6 /* Mesh.cpp */,
+				C1C5A80B293D07C900CDFCD6 /* Mesh.hpp */,
+				C1C5A80D293D0B4900CDFCD6 /* Texture.cpp */,
+				C1C5A80E293D0B4900CDFCD6 /* Texture.hpp */,
+				C1C5A810293D0C2D00CDFCD6 /* stb_image.h */,
+				C1C5A811293D4DEE00CDFCD6 /* Shader.cpp */,
+				C1C5A812293D4DEE00CDFCD6 /* Shader.hpp */,
+				C1C5A8142941217700CDFCD6 /* Camera.cpp */,
+				C1C5A8152941217700CDFCD6 /* Camera.hpp */,
+				C1C5A817294121EF00CDFCD6 /* Block.cpp */,
+				C1C5A818294121EF00CDFCD6 /* Block.hpp */,
+				C1C5A81A2941238F00CDFCD6 /* Chunk.cpp */,
+				C1C5A81B2941238F00CDFCD6 /* Chunk.hpp */,
+				C1C5A81D2943A01B00CDFCD6 /* MyWindow.cpp */,
+				C1C5A81E2943A01B00CDFCD6 /* MyWindow.hpp */,
+				C1AC1C80294677C400AF64E8 /* PerlinNoise.hpp */,
 			);
 			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		C1C5A803293AFAD900CDFCD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C5A808293AFBF600CDFCD6 /* OpenGL.framework */,
+				C1C5A806293AFAF500CDFCD6 /* libGLEW.2.2.0.dylib */,
+				C1C5A804293AFAD900CDFCD6 /* libglfw.3.3.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C5A80F293D0B4900CDFCD6 /* Texture.cpp in Sources */,
+				C1C5A80C293D07C900CDFCD6 /* Mesh.cpp in Sources */,
+				C1C5A81C2941238F00CDFCD6 /* Chunk.cpp in Sources */,
+				C1C5A81F2943A01B00CDFCD6 /* MyWindow.cpp in Sources */,
+				C1C5A8162941217700CDFCD6 /* Camera.cpp in Sources */,
+				C1C5A819294121EF00CDFCD6 /* Block.cpp in Sources */,
+				C1C5A813293D4DEE00CDFCD6 /* Shader.cpp in Sources */,
 				C1C5A7FD293AF9A200CDFCD6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,20 +310,42 @@
 		C1C5A801293AF9A200CDFCD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NPMHMK7YS7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.8/lib,
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.3.8/include,
+					/usr/local/Cellar/glew/2.2.0_1/include,
+					/usr/local/Cellar/glm/0.9.9.8/include,
+				);
 			};
 			name = Debug;
 		};
 		C1C5A802293AF9A200CDFCD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NPMHMK7YS7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.8/lib,
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.3.8/include,
+					/usr/local/Cellar/glew/2.2.0_1/include,
+					/usr/local/Cellar/glm/0.9.9.8/include,
+				);
 			};
 			name = Release;
 		};
